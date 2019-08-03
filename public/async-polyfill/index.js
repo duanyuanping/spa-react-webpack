@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title></title>
-    <script>
-      /* eslint-disable */
+/* eslint-disable */
 (function (window, factory) {
     if (typeof exports === 'object') {
         module.exports = factory();
@@ -186,10 +180,3 @@
         defineError: function (src) { console.log("defineError", src) }
     });
 });
-
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
